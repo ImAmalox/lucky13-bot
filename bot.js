@@ -34,7 +34,7 @@ process.stdin.setRawMode(true);
 
 console.clear();
 console.log('Welkom bij deze bot voor de quiz LUCKY13 van Talpa Network!');
-console.log('Gemaakt door: ' + 'Amalox '.green + '(https://github.com/ImAmalox) '.yellow);
+console.log('Gemaakt door: ' + 'Max Liebe '.green + '(https://github.com/ImAmalox) '.yellow);
 console.log('ALLEEN VOOR EDUCATIEF GEBRUIK!'.bgRed);
 console.log("Druk op 's' om een vraag te scannen, of druk op 'e' om de bot te verlaten.");
 
