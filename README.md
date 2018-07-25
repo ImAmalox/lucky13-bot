@@ -31,6 +31,22 @@ Vervolgens moet je een bestand maken genaamd config.json, met de volgende conten
 * Om aan een API sleutel te komen, ga naar [deze link](https://console.cloud.google.com/apis/), zorg dat de Custom Search API is ingeschakeld.
 * Om aan een CSE ID te komen, ga naar [deze link](https://cse.google.com/), zorg dat op het hele web zoeken aan staat.
 
+LET WEL OP! De gratis API van Google staat maar maximaal 100 requests per dag toe, dit is genoeg voor 1 ronde LUCKY13 en 7 losse vragen, aangezien elke vraag 5 requests nodig kan hebben.
+
+Verder heb je een programma nodig om je telefoon/tablet te mirroren:
+* Android: [AirDroid](https://www.airdroid.com/)
+* iOS: QuickTime Player (standaard geïnstalleerd op macOS)
+
+Nu moet je in bot.js de coördinaten aanpassen zodat de vragen en antwoorden gelezen kunnen worden:
+1. Download/Gebruik een programma om de coördinaten van je muis te bepalen.
+2. Bepaal de coördinaten van de linkerbovenhoek van de vraag en noteer deze.
+3. Bepaal de coördinaten van de rechteronderhoek van de vraag en noteer deze.
+4. Vul nu de coördinaten in in het gm.crop statement, argumenten: .crop(ROx - LBx, ROy - LBy, LBx, LBy).
+5. Doe hetzelfde voor de 2 antwoorden.
+
+Nu kun je de bot opstarten met `npm start` of `node bot.js`.
+Wanneer er een vraag in beeld komt, druk je op 's' en zal de bot de vraag voor jou proberen te beantwoorden.
+
 
 # Legaliteitswaarschuwing
 
