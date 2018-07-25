@@ -19,8 +19,8 @@ De dependencies en Node.js modules van deze bot komen erg overeen met maxenxe's 
 
 # Gebruik
 
-Nadat je tesseract en GraphicsMagick hebt geïnstalleerd, moet je eerst zorgen dat je alle Node.js modules hebt geïnstalleerd. <br>
-`npm install`
+Nadat je tesseract en GraphicsMagick hebt geïnstalleerd, moet je eerst zorgen dat je alle Node.js modules hebt geïnstalleerd: <br>
+    `npm install` <br>
 Vervolgens moet je een bestand maken genaamd config.json, met de volgende content:
 ```
 {
