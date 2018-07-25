@@ -17,9 +17,9 @@ De dependencies en Node.js modules van deze bot komen erg overeen met maxenxe's 
 2. [GraphicsMagick](http://www.graphicsmagick.org/)
 (de Node.js modules staan in package.json :D)
 
-#Gebruik
+# Gebruik
 
-Nadat je tesseract en GraphicsMagick hebt geïnstalleerd, moet je eerst zorgen dat je alle Node.js modules hebt geïnstalleerd.
+Nadat je tesseract en GraphicsMagick hebt geïnstalleerd, moet je eerst zorgen dat je alle Node.js modules hebt geïnstalleerd. <br>
 `npm install`
 Vervolgens moet je een bestand maken genaamd config.json, met de volgende content:
 ```
